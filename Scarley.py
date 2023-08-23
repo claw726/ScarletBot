@@ -1,5 +1,4 @@
 import requests
-import datetime
 
 # Replace with your GroupMe API access token
 access_token = ""
