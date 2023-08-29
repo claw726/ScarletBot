@@ -6,3 +6,12 @@ Once the admin adds in the proper tokens and edits the messages, the script only
 
 I would reccomned using chrontab to release the messages in a consistent time weekly or whatever your use case may be.
 
+##Requirements
+ - Python Installation with _requests_ installed
+
+##How to use
+ - Go to https://dev.groupme.com/bots and create a bot in the chat you want the bot in.
+ - Copy the bot ID to the variable _access_token_
+ - Copy the chat ID to the variable _group_id_
+ - Run the program by running ``python -u ScarletBot.py`` in your console/terminal. (replace ``python`` with the appropriate command for your installation)
+     
