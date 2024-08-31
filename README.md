@@ -9,11 +9,11 @@ I would reccomned using crontab to release the messages in a consistent time wee
 If you are interested in learning how to use crontab, here's a beginner's guide on how to set it up: https://linuxhandbook.com/crontab/
 
 ## Requirements
- - Python Installation with _requests_ installed
+ - Python Installation with _requests_, _logging_, and _python-dotenv_ installed
 
 ## How to use
  - Go to https://dev.groupme.com/bots and create a bot in the chat you want the bot in.
- - Copy the bot ID to the variable _access_token_
- - Copy the chat ID to the variable _group_id_
+ - Copy the bot ID to the variable _ACCESS_TOKEN_ in the. `.env` file
+ - Copy the chat ID to the variable _GROUP_ID_ in the `.env` file
  - Run the program by running ``python -u ScarletBot.py`` in your console/terminal. (replace ``python`` with the appropriate command for your installation)
      
