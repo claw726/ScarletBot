@@ -17,8 +17,8 @@ load_dotenv()
 # ACCESS_TOKEN=randomstring194553925489
 
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
-DEBUG_GROUP_ID = os.getenv("CALVARY_GROUP_ID")
-CALVARY_GROUP_ID = os.getenv("DEBUG_GROUP_ID")
+CALVARY_GROUP_ID = os.getenv("CALVARY_GROUP_ID")
+DEBUG_GROUP_ID = os.getenv("DEBUG_GROUP_ID")
 
 # Base URL for GroupMe API
 BASE_URL = f"https://api.groupme.com/v3/bots/post?token={ACCESS_TOKEN}"
@@ -78,7 +78,7 @@ def post_debug_message(debug_message):
     requests.post(url, json=data)
 
 # Send Main messages
-# send_messages(CALVARY_GROUP_ID)
+send_messages(CALVARY_GROUP_ID, messages)
 
 # Send debug messages (comment if unneeded)
-send_messages(DEBUG_GROUP_ID, debug_messages)
+# send_messages(DEBUG_GROUP_ID, debug_messages)
